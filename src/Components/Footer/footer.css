@@ -1,0 +1,159 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    /* display: flex;
+    align-items: flex-end; */
+  }
+  ul {
+    list-style: none;
+  }
+
+  footer {
+    /* background: #29A2D6;  */
+    background-color: #344659; 
+    background: linear-gradient(to right,#203A43,#2B7FAC, #203A43); 
+    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+    
+    color: #a7a7a7;
+    font-size: 16px;
+    width: 100%;
+    padding: 30px 80px 0;
+
+  }
+
+  .footer-h3 {
+    width: 100%;
+    text-align: left;
+    /* color: #a7a7a7; */
+    color: #ffffff;
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+
+  footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .span-title{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 600;
+    
+  }
+  /* .span-title:hover{
+    color: #203A43; 
+  } */
+  /* =================Columns Gridding================ */
+  /* .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  } */
+
+
+
+  /* ================Footer-Logo============================ */
+  .footer-logo {
+    font-family: 'Sacramento', cursive;
+    /* color: #a7a7a7; */
+    color: #fff;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
+  /* .footer-logo:hover {
+    color: #ffffff; 
+  } */
+
+  /* =====================U-lists========================== */
+  
+  .footer-links:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul .footer-links a {
+    /* color: #a7a7a7; */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  ul .footer-links a:hover {
+    color: #ffffff; 
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+
+  /* ==========Columns============= */
+
+  .column {
+    padding: 1.5rem;
+    border-right: 2px solid #a7a7a7;
+  }
+
+  /* =============Input Buttons============== */
+  /* input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  button {
+    background-color: #c7940a;
+    color: #ffffff;
+  } */
+
+  /* =======================Social-media===================== */
+  div.social {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.4em;
+    flex-direction: row;
+  }
+  .social i {
+    /* color: #a7a7a7; */
+    font-size: 1.5rem;
+    padding: 1rem 1rem ;
+    color: #ffffff;
+
+  }
+  .social i:hover {
+    color: #ffffff; 
+  }
+  
+
+  /* ==================Copyright=========================== */
+  .copyright {
+    padding: 20px 0;
+    text-align: center;
+    /* background-color: #304254 */
+
+  }
+  .copyright p {
+    font-size: 1em;
+    color: #ffffff;
+
+  }
+
+  /* ==================media Queries============= */
+
+  

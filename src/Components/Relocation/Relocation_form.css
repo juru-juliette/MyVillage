@@ -1,0 +1,21 @@
+.form-header h1{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Gothic A1';
+    font-size: 30px;
+}
+.short-p{
+    font-size: 20px;
+    font-family: 'Gothic A1';
+}
+
+.btn-sender{
+    background: #29A2D6;
+    color: #FFFFFF;
+    border-color: #29A2D6;
+    margin-top: 40px;
+    width: 140px;
+    height: 49px;
+    font-family: 'Gothic A1';
+   
+}
